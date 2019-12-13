@@ -2,6 +2,134 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    @apply text-red-600 bg-purple-600;
+body {
+    // background-color: #d8e7f5;
+    font-family: "times new roman";
+    @apply text-xl bg-ah-100 text-ah-800;
+
+    // @apply text-red-600 bg-purple-600;
+}
+
+p, ul {
+    @apply pt-4;
+}
+
+a {
+    @apply border-b-2 border-ah-800 text-ah-800
+}
+
+h2 {
+    @apply text-2xl pt-4;
+}
+
+.intro {
+    @apply text-2xl pt-8; 
+}
+
+a svg {
+    fill: #1155cc;
+}
+
+// HOMEPAGE CLOUD ANIMATION
+// .cloud1
+// .cloud2
+// .mouse
+
+.cloud1 {
+	animation: cloudwiggle 5s 0s ease infinite;
+	fill: #cfe2f3;
+}
+@keyframes cloudwiggle {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  25% {
+    transform: translateX(10px) translateY(10px);
+  }
+  50% {
+    transform: translateX(0px) translateY(0px);
+  }
+  75% {
+    transform: translateX(-10px) translateY(-10px);
+  }  
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+.cloud2 {
+	animation: cloud2wiggle 5s 2s ease infinite;
+	fill: #cfe2f3;
+}
+@keyframes cloud2wiggle {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  25% {
+    transform: translateX(-10px) translateY(-10px);
+  }
+  50% {
+    transform: translateX(0px) translateY(0px);
+  }
+  75% {
+    transform: translateX(10px) translateY(10px);
+  }  
+  100% {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+.mouse {
+  animation: mouse 10s 5s ease infinite;
+  fill: #cfe2f3;
+}
+@keyframes mouse {
+  0% {
+    transform: translateX(0px);
+  }
+  10% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  60% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+
+// 500 CAPP street 
+
+.sun {
+  animation: sun 10s 0s ease infinite;
+  transform-origin: bottom right;
+	fill: #cfe2f3;
+}
+@keyframes sun {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }  
+}
+
+.ball {
+  animation: ballrotate 5s 0s ease infinite;
+  transform-origin: center center;
+}
+@keyframes ballrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(45deg);
+  }  
 }

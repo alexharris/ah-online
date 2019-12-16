@@ -5,13 +5,12 @@
 body {
     // background-color: #d8e7f5;
     font-family: "times new roman";
-    @apply text-xl bg-ah-100 text-ah-800;
-
+    @apply text-xl text-ah-800;
     // @apply text-red-600 bg-purple-600;
 }
 
 p, ul {
-    @apply pt-4;
+    @apply pb-4;
 }
 
 a {
@@ -19,15 +18,23 @@ a {
 }
 
 h2 {
-    @apply text-2xl pt-4;
+    @apply text-4xl pb-4;
+}
+
+h3 {
+    @apply text-3xl pb-4
 }
 
 .intro {
-    @apply text-2xl pt-8; 
+    @apply text-2xl pb-8; 
 }
 
 a svg {
     fill: #1155cc;
+}
+
+.skew {
+    transform: skew(45deg);
 }
 
 // HOMEPAGE CLOUD ANIMATION

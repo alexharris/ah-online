@@ -11,18 +11,28 @@
             <img @mouseleave="bampfa = true" v-if="!bampfa" src="./assets/bampfa.png" />        
           </div>         -->
 
-            <p>Previous clients include:</p>
+            <h3>Clients</h3>
             <ul>
-              <li>UC Berkeley</li>
-              <li>YBCA</li>
               <li><a href="https://bampfa.org">BAMPFA</a></li>
               <li><a href="https://500cappstreet.org/">500 Capp Street Foundation</a> <a @click="content = 'capp'; scrollToTop()" class="no-underline border-0"> <svg class="inline" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>eye</title><path d="M16 6c-6.979 0-13.028 4.064-16 10 2.972 5.936 9.021 10 16 10s13.027-4.064 16-10c-2.972-5.936-9.021-10-16-10zM23.889 11.303c1.88 1.199 3.473 2.805 4.67 4.697-1.197 1.891-2.79 3.498-4.67 4.697-2.362 1.507-5.090 2.303-7.889 2.303s-5.527-0.796-7.889-2.303c-1.88-1.199-3.473-2.805-4.67-4.697 1.197-1.891 2.79-3.498 4.67-4.697 0.122-0.078 0.246-0.154 0.371-0.228-0.311 0.854-0.482 1.776-0.482 2.737 0 4.418 3.582 8 8 8s8-3.582 8-8c0-0.962-0.17-1.883-0.482-2.737 0.124 0.074 0.248 0.15 0.371 0.228v0zM16 13c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z"></path></svg></a></li>
               <li><a href="http://otherbrotherbeer.com/">Other Brother Beer</a></li>
-            </ul>       
-            <p>I try to be particularly attuned to how a particular solution might fit into an organization's technological capacity, and make choices accordingly. This might result in a fully custom Wordpress site, a single static HTML page, or even just a Google form.</p>
-            <p>I also enjoy providing documentation and training to make sure that whatever the solution is continues to be manageable and helpful for the long term.
-            <p>My proficiencies include: HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery), PHP, and I have a lot of experience with CMS implementation including Drupal, Wordpress, Squarespace, Shopify and more.</p>
-          
+              <li><a href="https://almaandfriends.org/">Alma and Friends</a></li>
+              <li><a href="http://openengagement.info/">Open Engagement</a></li>
+              
+              
+            </ul>   
+            <h3>Services</h3>    
+            <p>I provide a wide range of development, consultation and training services.</p>
+            <p>I try to be particularly attuned to how a particular solution might fit into an organization's technological capacity, and make choices accordingly. This might result in a fully custom Wordpress site, a single static HTML page, a Shopify site, or even just a Google form. I also provide training and documentation, with the goal of enabling individuals to be able to do feel comfortable with everyday use of their site.</p>
+            <p>My proficiencies include: Working with other people (especially non-technical people), HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery), PHP, and I have a lot of experience with CMS implementation and maintenance including Drupal, Wordpress, Squarespace, Shopify and more.</p>
+            <h3>Other Stuff</h3>
+            <p>I have also have some non-client projects that are online:</p>
+            <ul>
+              <li><a href="https://ditherit.com">Dither it!</a> – An online tool for dithering images</li>
+              <li><a href="https://ditherit.com">Small Archives</a> – A small archival collections platform</li>
+            </ul>
+            <h3>Get in touch</h3>
+          <p>You can reach me via email at <a href="mailto:alex@alexharris.online">alex@alexharris.online</a> or find me on <a href="https://github.com/alexharris">Github</a> or <a href="https://www.linkedin.com/in/alex-harris-a7425b90/">Linked In</a>. </p>            
         </section>
         <section v-if="content == 'capp'" class="lg:w-2/3 mx-auto">
           <div class="bg-ah-800 text-white rounded p-2 mb-8 inline-block cursor-pointer" @click="content = 'intro'; scrollToTop()">Home</div>

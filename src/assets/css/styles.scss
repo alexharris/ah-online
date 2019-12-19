@@ -17,6 +17,14 @@ a {
     @apply border-b-2 border-ah-800 text-ah-800
 }
 
+a:hover {
+    @apply text-red-600
+}
+
+.work:hover a {
+    @apply text-white border-white
+}
+
 h1 {
     @apply text-5xl pb-4;
 }
@@ -43,6 +51,12 @@ a svg {
 
 .skew {
     transform: skew(45deg);
+}
+
+.work:hover .thumb {
+    mix-blend-mode: multiply;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 // HOMEPAGE CLOUD ANIMATION

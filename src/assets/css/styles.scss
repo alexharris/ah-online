@@ -21,8 +21,10 @@ a:hover {
     @apply text-red-600
 }
 
-.work:hover a {
-    @apply text-white border-white
+
+
+h1, h2, h3, h4 {
+  font-family: "arial";
 }
 
 h1 {
@@ -30,19 +32,15 @@ h1 {
 }
 
 h2 {
-    @apply text-4xl pb-4;
+    @apply text-3xl pb-4;
 }
 
 h3 {
-    @apply text-3xl pb-4
-}
-
-h4 {
     @apply text-2xl pb-4
 }
 
-.intro {
-    @apply text-2xl pb-8; 
+h4 {
+    @apply text-xl pb-4
 }
 
 a svg {
@@ -53,11 +51,20 @@ a svg {
     transform: skew(45deg);
 }
 
-.work:hover .thumb {
-    mix-blend-mode: multiply;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+.work:hover a, .hero img {
+  mix-blend-mode: multiply
 }
+
+.work:hover .thumb, .hero img {
+    mix-blend-mode: multiply;
+    // -webkit-filter: grayscale(100%);
+    // filter: grayscale(100%);
+}
+
+.gradient {
+  background: linear-gradient(180deg, rgba(17,85,204,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 100%); 
+}
+
 
 // HOMEPAGE CLOUD ANIMATION
 // .cloud1

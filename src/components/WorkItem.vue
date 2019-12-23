@@ -1,7 +1,7 @@
 <template>
     <div class="w-full sm:w-1/2 lg:w-1/3 text-center ">
         <div class=" m-4 px-4 pt-4 shadow-lg hover:bg-ah-800  bg-white work">
-            <a :href="slug" class="border-0 hover:text-white">
+            <a :href="'/?p=' + slug" class="border-0 hover:text-white">
             <!-- <div> -->
                 <img class="thumb" :src="'./' + slug + '-thumb.jpg'" />
             <!-- </div>  -->

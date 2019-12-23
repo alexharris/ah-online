@@ -1,13 +1,13 @@
 <template>
   <div id="app" class="gradient">
     <a
-      v-if="currentRoute != '/'"
+      v-if="currentRoute != ''"
       class="m-4 fixed top-0 right-0 text-white cursor-pointer bg-ah-800 rounded-full w-16 h-16 flex justify-center items-center hover:bg-white hover:text-ah-800 hover:shadow-xl border-none"
       href="/"
       ><svg  aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11 h-8 w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
       </a>
     <section
-      v-if="currentRoute == '/'"
+      v-if="currentRoute == ''"
       class="container px-8 w-full lg:w-4/5 mx-auto py-32"
     >
       <!-- <HeaderAnimation /> -->
@@ -20,7 +20,7 @@
       </p>
       <h2 class="w-full pb-8">Work –</h2>
       <div class="flex flex-row flex-wrap pb-8">
-        <WorkItem url="https://bampfa.org" title="BAMPFA" slug="bampfa" />
+        <WorkItem url="/bampfa" title="BAMPFA" slug="bampfa" />
         <WorkItem url="/capp" title="500 Capp Street" slug="capp" />
         <WorkItem url="/obb" title="Other Brother Beer" slug="obb" />
         <WorkItem url="/alma" title="Alma and Friends" slug="alma" />
@@ -61,37 +61,37 @@
         <Bampfa />
       </section>       -->
     <section
-      v-if="currentRoute == '/capp'"
+      v-if="currentRoute == '?p=capp'"
       class="w-full"
     >
       <Capp />
     </section>
     <section
-      v-if="currentRoute == '/bampfa'"
+      v-if="currentRoute == '?p=bampfa'"
       class="w-full"
     >
       <Bampfa />
     </section>
     <section
-      v-if="currentRoute == '/obb'"
+      v-if="currentRoute == '?p=obb'"
       class="w-full"
     >
       <Obb />
     </section>
     <section
-      v-if="currentRoute == '/alma'"
+      v-if="currentRoute == '?p=alma'"
       class="w-full"
     >
       <Alma />
     </section>
     <section
-      v-if="currentRoute == '/oe'"
+      v-if="currentRoute == '?p=oe'"
       class="w-full"
     >
       <Oe />
     </section>
     <section
-      v-if="currentRoute == '/pico'"
+      v-if="currentRoute == '?p=pico'"
       class="w-full"
     >
       <Pico />
@@ -129,7 +129,7 @@ export default {
   data: function() {
     return {
       content: "intro",
-      currentRoute: window.location.pathname
+      currentRoute: window.location.search
     };
   },
   components: {
@@ -142,6 +142,10 @@ export default {
     Oe,
     Pico
   },
+  created() {
+    // eslint-disable-next-line no-console
+    console.log(window.location)
+  },  
   methods: {
     bampfaHover() {
       this.bampfa = !this.bampfa;

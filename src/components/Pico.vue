@@ -7,7 +7,8 @@
       </div>
       <div class="w-full md:w-1/2 p-4">
         <p>
-text        </p>
+          Picoyune is a mercury sensor company focused on created reliable, portable, and easy to use mercury sensors. Their website was built to provide simple and easy to access information about their business and products.
+        </p>
         <p>
           Site: <a href="https://picoyune.com"> https://picoyune.com</a>
         </p>

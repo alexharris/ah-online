@@ -7,9 +7,10 @@
       </div>
       <div class="w-full md:w-1/2 p-4">
         <p>
-text        </p>
+          Open Engagement is an annual conference for socially engaged art. I maintained their website over the course of a few years, and in that time got to experience how small organizations can do big things (hint: it takes a lot of work). Technology can be a powerful tool for enabling this work. On hiatus from doing their annual conference, the site I set up for OE now serves, amongst other things, as an archive and respository to chronicle all of the cool stuff they made happen.
+        </p>
         <p>
-          Site: <a href="https://openengagement.info"> https://openengagement.info</a>
+          Site: <a href="http://openengagement.info"> http://openengagement.info</a>
         </p>
       </div>
     </div>

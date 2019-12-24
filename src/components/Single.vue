@@ -1,7 +1,7 @@
 <template>
   <section class="pb-16 gradient bg-fixed">
-    <div class="flex justify-center py-16 hero">
-      <img :src="'./' + id + '-thumb.jpg'" />
+    <div class="flex flex-row justify-center py-16 hero"> 
+      <img class="max-w-full" :src="'./' + id + '-thumb.jpg'" />
     </div>
     <div class="w-full lg:w-4/5 px-4 md:px-16 mx-auto mt-16 flex flex-col justify-center items-center">
       <slot></slot>

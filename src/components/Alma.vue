@@ -7,7 +7,8 @@
       </div>
       <div class="w-full md:w-1/2 p-4">
         <p>
-text        </p>
+          Alma is a small non-profit organization utilizing landscape architecture practices to increase awareness of environmental, land use, and human rights issues. They do not need much from their website, and don't add content often, so this is a simple site hosted on Github with no CMS. I just occasionaly update the content as needed. This is cheaper and easier for everyone.
+        </p>
         <p>
           Site: <a href="https://almaandfriends.org"> https://almaandfriends.org</a>
         </p>

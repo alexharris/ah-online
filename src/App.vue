@@ -100,7 +100,7 @@
       <p>Here is some non-client work I have on the web:</p>
       <div class="flex flex-row flex-wrap">
         <div
-          class="w-full sm:w-1/2 lg:w-1/3 pr-4 my-8"
+          class="w-full sm:w-1/2 lg:w-1/3 sm:pr-4 sm:my-8"
         >
           <a class="self-center" href="https://smallarchives.com">
             <img src="smallarchives-thumb.jpg" />
@@ -117,7 +117,7 @@
           </div>
         </div>
         <div
-          class="w-full sm:w-1/2 lg:w-1/3 px-2 my-8"
+          class="w-full sm:w-1/2 lg:w-1/3 sm:px-2 sm:my-8"
         >
           <a href="https://ditherit.com"> <img src="ditherit-thumb.jpg"/></a>
           <div class="p-4 flex flex-col justify-between">
@@ -131,7 +131,7 @@
           </div>
         </div>
         <div
-          class="w-full sm:w-1/2 lg:w-1/3 pl-4 my-8"
+          class="w-full sm:w-1/2 lg:w-1/3 lg:pl-4 sm:my-8"
         >
           <a href="https://alexharris.github.io/vue-palette-builder/">
             <img src="vue-palette-builder-thumb.jpg"

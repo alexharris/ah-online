@@ -15,7 +15,6 @@ Text        </p>
     </div>
     <img class="pb-8" src="obb/1.jpg" />
     <img class="pb-8" src="obb/2.jpg" />
-    <img class="pb-8" src="obb/3.jpg" />
   </Single>
 </template>
 

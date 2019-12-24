@@ -48,7 +48,7 @@
       </div>
       <h2 class="w-full pb-8">Services –</h2>
       <div class="flex flex-col md:flex-row">
-        <div class="w-full md:w-1/2 pl-0 p-4">
+        <div class="w-full md:w-1/2 pl-0 px-4">
           <p>
             I provide a wide range of development, consultation and training
             services.
@@ -61,7 +61,7 @@
             the long term.
           </p>
         </div>
-        <div class="w-full md:w-1/2 p-4">
+        <div class="w-full md:w-1/2 pl-0 md:pl-4 px-4">
           <p>
             My proficiencies include: Working with other people (especially
             non-technical people), HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery),
@@ -77,16 +77,20 @@
         <p>
           Interesting in hiring me for a project, or just want to talk about the
           internet? You can reach me via email at
-          <a class="text-red-600" href="mailto:alex@alexharris.online"
+          <a
+            class="text-yellow-300 underline"
+            href="mailto:alex@alexharris.online"
             >alex@alexharris.online</a
           >
           or find me on
-          <a class="text-red-600" href="https://github.com/alexharris"
+          <a
+            class="text-yellow-300 underline"
+            href="https://github.com/alexharris"
             >Github</a
           >
           or
           <a
-            class="text-red-600"
+            class="text-yellow-300 underline"
             href="https://www.linkedin.com/in/alex-harris-a7425b90/"
             >Linked In</a
           >.
@@ -94,8 +98,10 @@
       </div>
       <h2 class="w-full pb-8">Other Stuff –</h2>
       <p>Here is some non-client work I have on the web:</p>
-      <div class="flex flex-col md:flex-row">
-        <div class="w-full md:w-1/3 mx-4 my-8 border-b-2 border-ah-800">
+      <div class="flex flex-row flex-wrap">
+        <div
+          class="w-full sm:w-1/2 lg:w-1/3 pr-4 my-8"
+        >
           <a class="self-center" href="https://smallarchives.com">
             <img src="smallarchives-thumb.jpg" />
           </a>
@@ -110,7 +116,9 @@
             </p>
           </div>
         </div>
-        <div class="w-full md:w-1/3 mx-4 my-8 border-b-2 border-ah-800">
+        <div
+          class="w-full sm:w-1/2 lg:w-1/3 px-2 my-8"
+        >
           <a href="https://ditherit.com"> <img src="ditherit-thumb.jpg"/></a>
           <div class="p-4 flex flex-col justify-between">
             <h3>Dither it!</h3>
@@ -122,7 +130,9 @@
             <p><a href="https://ditherit.com">https://ditherit.com</a></p>
           </div>
         </div>
-        <div class="w-full md:w-1/3 mx-4 my-8 border-b-2 border-ah-800">
+        <div
+          class="w-full sm:w-1/2 lg:w-1/3 pl-4 my-8"
+        >
           <a href="https://alexharris.github.io/vue-palette-builder/">
             <img src="vue-palette-builder-thumb.jpg"
           /></a>

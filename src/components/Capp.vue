@@ -1,8 +1,8 @@
 <template>
   <Single id="capp">
     <h1 class="w-full pb-16 text-center">500 Capp Street</h1>
-    <div class="w-full flex flex-col md:flex-row flex-wrap p-8 mb-8 border border-ah-800">
-      <div class="w-full md:w-1/2 p-4 flex justify-center">
+    <div class="w-full flex flex-col md:flex-row flex-wrap p-4 lg:p-8 mb-8 border border-ah-800 items-center">
+      <div class="w-full md:w-1/2 p-4 self-start flex justify-center">
         <img src="capp-logo.png" />
       </div>
       <div class="w-full md:w-1/2 p-4">
@@ -21,7 +21,7 @@
         </p>
       </div>
     </div>
-    <img class="float-left" src="../assets/500-capp-street-exhibition.jpg" />
+    <img src="capp/500-capp-street-exhibition.jpg" />
 
     <h2 class="text-center w-full">Process</h2>
     <div class="w-full flex flex-col md:flex-row flex-wrap">
@@ -65,7 +65,7 @@
         </p>
       </div>
     </div>
-    <img class="pb-8" src="../assets/500-capp-street-exh-list.jpg" />
+    <img class="pb-8" src="capp/500-capp-street-exh-list.jpg" />
 
     <h2 class="w-full text-center">Outcome</h2>
 

@@ -201,16 +201,16 @@ export default {
     Oe,
     Pico
   },
-  created() {
-    // eslint-disable-next-line no-console
-    console.log(window.location);
-  },
   methods: {
     bampfaHover() {
       this.bampfa = !this.bampfa;
     },
     scrollToTop() {
       window.scrollTo(0, 0);
+    },
+    itemSelected() {
+      // eslint-disable-next-line no-console
+      console.log('hello')
     }
   }
 };

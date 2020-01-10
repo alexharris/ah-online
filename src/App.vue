@@ -70,7 +70,7 @@
           </p>
         </div>
       </div>
-      <div class="border border-ah-800 p-4 my-16 shadow border-ah-800">
+      <div class="border border-ah-800 p-4 my-16 border-ah-800">
         <h2 class="w-full pb-8">Get in touch –</h2>
 
         <!-- <img class="float-left pr-8" src="coat.gif" />       -->

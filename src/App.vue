@@ -22,7 +22,7 @@
     </a>
     <section
       v-if="currentRoute == ''"
-      class="container px-8 w-full lg:w-4/5 mx-auto py-32"
+      class="px-8 w-full py-32 px-8"
     >
       <!-- <HeaderAnimation /> -->
       <h1>Alex Harris</h1>
@@ -70,7 +70,7 @@
           </p>
         </div>
       </div>
-      <div class="border border-ah-800 p-4 my-16 shadow bg-ah-800 text-white">
+      <div class="border border-ah-800 p-4 my-16 shadow border-ah-800">
         <h2 class="w-full pb-8">Get in touch –</h2>
 
         <!-- <img class="float-left pr-8" src="coat.gif" />       -->
@@ -78,19 +78,16 @@
           Interesting in hiring me for a project, or just want to talk about the
           internet? You can reach me via email at
           <a
-            class="text-yellow-300 underline"
             href="mailto:alex@alexharris.online"
             >alex@alexharris.online</a
           >
           or find me on
           <a
-            class="text-yellow-300 underline"
             href="https://github.com/alexharris"
             >Github</a
           >
           or
           <a
-            class="text-yellow-300 underline"
             href="https://www.linkedin.com/in/alex-harris-a7425b90/"
             >Linked In</a
           >.

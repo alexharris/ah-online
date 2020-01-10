@@ -26,8 +26,8 @@
     >
       <!-- <HeaderAnimation /> -->
       <h1>Alex Harris</h1>
-      <h2>Web Development</h2>
-      <p class="text-2xl w-full md:w-2/3 pb-8">
+      <h3>Web Development</h3>
+      <p class="text-xl w-full md:w-2/3 pb-8">
         I am a web developer in Oakland, CA with over 9 years of experience
         helping arts and education organizations, artists, non-profits and small
         businesses communicate on the web.

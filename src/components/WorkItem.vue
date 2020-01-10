@@ -5,10 +5,10 @@
     >
       Case Study
     </div>
-    <div class="p-4 hover:bg-ah-800 bg-white work">
+    <div class="p-4 m-4 hover:bg-ah-800 border border-ah-800 work uppercase text-white">
       <a :href="'/?p=' + slug" class="border-0 hover:text-white">
         <img class="thumb" :src="'./' + slug + '-thumb.jpg'" />
-        <div class="py-4">{{ title }}</div>
+        <div class="pt-4">{{ title }}</div>
       </a>
     </div>
   </div>

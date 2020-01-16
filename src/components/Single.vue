@@ -8,12 +8,13 @@
     >
       <div class="w-full flex flex-col md:flex-row conatiner mx-auto">
         <div
-          class="w-full md:w-1/2 lg:w-1/3 flex flex-col md:h-screen md:sticky top-0 pt-16"
+          class="w-full md:w-1/2 flex flex-col md:h-screen  top-0 pt-16 "
+          v-bind:class="{ 'md:sticky': !casestudy }"
         >
           <slot></slot>
        
         </div>
-        <div class="w-full md:w-1/2 lg:w-2/3 py-4 md:pl-8 flex justify-center items-start py-4">
+        <div class="w-full md:w-1/2 py-4 md:pl-8 flex justify-center items-start py-4 md:sticky top-0">
           <img class="shadow-xl" :src="id + '/1.jpg'" />
         </div>
       </div>
@@ -24,6 +25,6 @@
 <script>
 export default {
   name: "Single",
-  props: ["id"]
+  props: ["id", "casestudy"]
 };
 </script>

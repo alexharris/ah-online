@@ -1,5 +1,5 @@
 <template>
-  <Single id="capp">
+  <Single id="capp" casestudy="true">
     <h1 class="w-full pb-4 text-xl uppercase font-bold">500 Capp Street</h1>
     <p>
       <a href="https://500cappstreet.org"> https://500cappstreet.org</a>

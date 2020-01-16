@@ -20,7 +20,7 @@
         ></path>
       </svg>
     </a>
-    <div class="sticky top-0 bg-white w-full py-4 px-8">
+    <div class="bg-white w-full py-4 px-8">
       <h1 class="text-xl uppercase font-bold ">Alex Harris Web Development</h1>
     </div>
     <section
@@ -29,7 +29,7 @@
     >
       <!-- <HeaderAnimation /> -->
       <p class=" w-full md:w-2/3 pb-16">
-        I am a web developer in Oakland, CA with over 9 years of experience
+        I am a web developer in Oakland, CA with over 10 years of experience
         helping arts and education organizations, artists, non-profits and small
         businesses communicate on the web.
       </p>
@@ -49,36 +49,30 @@
         <WorkItem url="/picoyune" title="Picoyune" subtitle="Jekyll" slug="pico" />
         <WorkItem url="/kgf" title="Kessenick Gamma & Free LLP" subtitle="Squarespace" slug="kgf" />
       </div>
-      <h2 class="w-full pb-8">Services –</h2>
+      
       <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2 pl-0 px-4">
+        <h2 class="text-xl uppercase font-bold ">About</h2>
           <p>
-            I provide a wide range of development, consultation and training
-            services.
-          </p>
-          <p>
-            I try to be particularly attuned to how a particular solution might
-            fit into an organization's technological capacity. I also provide
-            training and documentation, with the goal of enabling individuals to
-            be able to do feel comfortable with everyday use of their site for
-            the long term.
+            I have been making websites professionally for over 10 years, and have a wide variety of experience. As a developer at Cast Iron Coding in Portland, OR, I spent countless building sites for clients, and training and supporting them in their ongoing use.</p><p>I have also spent time on the other side of the phone as the Web Editor and Electronic Communications Manager at the Berkeley Art Museum and Pacific Film Archive at the UC Berkeley, where one of my duties including hiring and working with assorted contractors to build new functionality for the website.</p><p> These experiences have given me perspective on what it takes to communicate succesfully on the web (hint: it is as much or more about good communication and planning than the technology involved).
           </p>
         </div>
         <div class="w-full md:w-1/2 pl-0 md:pl-4 px-4">
+        <h2 class="text-xl uppercase font-bold ">Services</h2>
+          <p> I provide a wide range of development, design, consultation and training services.</p>
+          <p>I believe that a successful website is focused first and foremost on accessible, clear, and up to date content.</p>
           <p>
-            My proficiencies include: Working with other people (especially
-            non-technical people), HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery),
-            PHP, and CMS implementation and maintenance including Drupal,
-            Wordpress, Squarespace, Shopify and more.
+            My technical proficiencies include: HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery, whatever),
+            PHP, UI design, and CMS implementation and maintenance including Drupal, Wordpress, Squarespace, Shopify and more.
           </p>
         </div>
       </div>
-      <div class="border border-ah-800 p-4 my-16 border-ah-800">
-        <h2 class="w-full pb-8">Get in touch –</h2>
+      <div class="border border-ah-800 p-4 my-16 border-ah-900 md:w-3/5 mx-auto">
+        <h2 class="text-xl uppercase font-bold ">Get In Touch </h2>
 
         <!-- <img class="float-left pr-8" src="coat.gif" />       -->
         <p>
-          Interesting in hiring me for a project, or just want to talk about the
+          Interested in hiring me for a project, or just want to talk about the
           internet? You can reach me via email at
           <a
             href="mailto:alex@alexharris.online"
@@ -96,7 +90,7 @@
           >.
         </p>
       </div>
-      <h2 class="w-full pb-8">Other Stuff –</h2>
+      <h2 class="text-xl uppercase font-bold ">Other Stuff</h2>
       <p>Here is some non-client work I have on the web:</p>
       <div class="flex flex-row flex-wrap">
         <div

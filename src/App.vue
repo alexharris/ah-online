@@ -2,7 +2,7 @@
   <div id="app" class="gradient">
     <a
       v-if="currentRoute != ''"
-      class="m-4 fixed top-0 right-0 text-white cursor-pointer bg-ah-800 rounded-full w-16 h-16 flex justify-center items-center hover:bg-white hover:text-ah-800 hover:shadow-xl border-none"
+      class="m-2 fixed top-0 bg-white right-0 text-ah-900 cursor-pointer border border-ah-900 rounded-full w-12 h-12 flex justify-center items-center hover:bg-ah-900 hover:text-white shadow-xl m-4 z-50"
       href="/"
       ><svg
         aria-hidden="true"
@@ -20,31 +20,34 @@
         ></path>
       </svg>
     </a>
+    <div class="sticky top-0 bg-white w-full py-4 px-8">
+      <h1 class="text-xl uppercase font-bold ">Alex Harris Web Development</h1>
+    </div>
     <section
       v-if="currentRoute == ''"
-      class="px-8 w-full py-32 px-8"
+      class="px-8 w-full px-8"
     >
       <!-- <HeaderAnimation /> -->
-      <h1>Alex Harris</h1>
-      <h3>Web Development</h3>
-      <p class="text-xl w-full md:w-2/3 pb-8">
+      <p class=" w-full md:w-2/3 pb-16">
         I am a web developer in Oakland, CA with over 9 years of experience
         helping arts and education organizations, artists, non-profits and small
         businesses communicate on the web.
       </p>
-      <h2 class="w-full pb-8">Work –</h2>
-      <div class="flex flex-row flex-wrap pb-8">
-        <WorkItem url="/bampfa" title="BAMPFA" slug="bampfa" />
+      <div class="flex flex-row flex-wrap pb-8" id="work-items">
+        <WorkItem url="/bampfa" title="BAMPFA" subtitle="Drupal 7" slug="bampfa" />
         <WorkItem
           url="/capp"
           title="500 Capp Street"
+          subtitle="Wordpress"
           slug="capp"
           casestudy="true"
+          
         />
-        <WorkItem url="/obb" title="Other Brother Beer" slug="obb" />
-        <WorkItem url="/alma" title="Alma and Friends" slug="alma" />
-        <WorkItem url="/oe" title="Open Engagement" slug="oe" />
-        <WorkItem url="/picoyune" title="Picoyune" slug="pico" />
+        <WorkItem url="/obb" title="Other Brother Beer" subtitle="Wordpress"  slug="obb" />
+        <WorkItem url="/alma" title="Alma and Friends" subtitle="Vue.js" slug="alma" />
+        <WorkItem url="/oe" title="Open Engagement" subtitle="Wordpress" slug="oe" />
+        <WorkItem url="/picoyune" title="Picoyune" subtitle="Jekyll" slug="pico" />
+        <WorkItem url="/kgf" title="Kessenick Gamma & Free LLP" subtitle="Squarespace" slug="kgf" />
       </div>
       <h2 class="w-full pb-8">Services –</h2>
       <div class="flex flex-col md:flex-row">
@@ -167,6 +170,9 @@
     <section v-if="currentRoute == '?p=pico'" class="w-full">
       <Pico />
     </section>
+    <section v-if="currentRoute == '?p=kgf'" class="w-full">
+      <Kgf />
+    </section>    
   </div>
 </template>
 
@@ -179,6 +185,7 @@ import Obb from "./components/Obb.vue";
 import Alma from "./components/Alma.vue";
 import Oe from "./components/Oe.vue";
 import Pico from "./components/Pico.vue";
+import Kgf from "./components/Kgf.vue";
 
 export default {
   name: "app",
@@ -196,7 +203,8 @@ export default {
     Obb,
     Alma,
     Oe,
-    Pico
+    Pico,
+    Kgf
   },
   methods: {
     bampfaHover() {

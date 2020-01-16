@@ -3,25 +3,26 @@
 @tailwind utilities;
 
 body {
-    // background-color: #d8e7f5;
-    font-family: "arial";
-    @apply text-lg text-ah-800;
+    font-family: "times";
+    @apply text-xl text-ah-900;
     // @apply text-red-600 bg-purple-600;
 }
 
+.sans {
+
+}
+
 p, ul {
-    @apply pb-4;
+    @apply pb-4
 }
 
 a {
-    @apply border-b-2 border-ah-800 text-ah-800
+    @apply border-b border-ah-900 text-ah-900
 }
 
 a:hover {
-    @apply text-red-600
+    @apply border-0
 }
-
-
 
 h1, h2, h3, h4 {
   font-family: "arial";
@@ -40,7 +41,7 @@ h3 {
 }
 
 h4 {
-    @apply text-lg pb-4
+    @apply text-lg pb-2
 }
 
 a svg {
@@ -55,121 +56,36 @@ a svg {
   font-family: "arial";
 }
 
-.work:hover a, .hero img {
-  mix-blend-mode: multiply
+#single-thumb {
+    // @apply bg-black;
+    // img {
+    //     mix-blend-mode: multiply
+    // }
+    
 }
 
-.work:hover .thumb, .hero img {
-    mix-blend-mode: multiply;
-    // -webkit-filter: grayscale(100%);
-    // filter: grayscale(100%);
+// .work-item {
+//     @apply pr-8
+// }
+
+// .work:hover a, .hero img {
+//   mix-blend-mode: exclusion
+// }
+
+// .work:hover .thumb, .hero img {
+//     mix-blend-mode: exclusion;
+// }
+
+// #work-items > div:nth-child(4n) {
+//     @apply pl-0
+
+// }
+
+#work-items > div.work-item:nth-child(3n) {
+        // @apply pr-0 
+    
 }
 
 .gradient {
 //   background: linear-gradient(180deg, rgba(17,85,204,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 100%); 
 }
-
-
-// HOMEPAGE CLOUD ANIMATION
-// .cloud1
-// .cloud2
-// .mouse
-
-// .cloud1 {
-// 	animation: cloudwiggle 5s 0s ease infinite;
-// 	fill: #cfe2f3;
-// }
-// @keyframes cloudwiggle {
-//   0% {
-//     transform: translateX(0px) translateY(0px);
-//   }
-//   25% {
-//     transform: translateX(10px) translateY(10px);
-//   }
-//   50% {
-//     transform: translateX(0px) translateY(0px);
-//   }
-//   75% {
-//     transform: translateX(-10px) translateY(-10px);
-//   }  
-//   100% {
-//     transform: translateX(0px) translateY(0px);
-//   }
-// }
-
-// .cloud2 {
-// 	animation: cloud2wiggle 5s 2s ease infinite;
-// 	fill: #cfe2f3;
-// }
-// @keyframes cloud2wiggle {
-//   0% {
-//     transform: translateX(0px) translateY(0px);
-//   }
-//   25% {
-//     transform: translateX(-10px) translateY(-10px);
-//   }
-//   50% {
-//     transform: translateX(0px) translateY(0px);
-//   }
-//   75% {
-//     transform: translateX(10px) translateY(10px);
-//   }  
-//   100% {
-//     transform: translateX(0px) translateY(0px);
-//   }
-// }
-
-// .mouse {
-//   animation: mouse 10s 5s ease infinite;
-//   fill: #cfe2f3;
-// }
-// @keyframes mouse {
-//   0% {
-//     transform: translateX(0px);
-//   }
-//   10% {
-//     transform: translateX(10px);
-//   }
-//   50% {
-//     transform: translateX(10px);
-//   }
-//   60% {
-//     transform: translateX(0px);
-//   }
-//   100% {
-//     transform: translateX(0px);
-//   }
-// }
-
-
-// 500 CAPP street 
-
-// .sun {
-//   animation: sun 10s 0s ease infinite;
-//   transform-origin: bottom right;
-// 	fill: #cfe2f3;
-// }
-// @keyframes sun {
-//   0% {
-//     transform: rotate(0deg);
-//   }
-//   50% {
-//     transform: rotate(45deg);
-//   }
-//   100% {
-//     transform: rotate(0deg);
-//   }  
-// }
-
-// .ball {
-//   animation: ballrotate 5s 0s ease infinite;
-//   transform-origin: center center;
-// }
-// @keyframes ballrotate {
-//   0% {
-//     transform: rotate(0deg);
-//   }
-//   100% {
-//     transform: rotate(45deg);
-//   }  
-// }

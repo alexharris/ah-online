@@ -24,7 +24,7 @@ a:hover {
     @apply border-0
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   font-family: "arial";
 }
 
@@ -42,6 +42,10 @@ h3 {
 
 h4 {
     @apply text-lg pb-2
+}
+
+h5 {
+    @apply text-base pb-2
 }
 
 a svg {

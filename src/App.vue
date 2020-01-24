@@ -2,7 +2,7 @@
   <div id="app" class="gradient">
     <a
       v-if="currentRoute != ''"
-      class="m-2 fixed top-0 bg-white right-0 text-ah-900 cursor-pointer border border-ah-900 rounded-full w-12 h-12 flex justify-center items-center hover:bg-ah-900 hover:text-white shadow-xl m-4 z-50"
+      class="m-2 fixed top-0 bg-white right-0 text-ah-900 cursor-pointer border border-ah-900 rounded-full w-12 h-12 flex justify-center items-center hover:bg-ah-900 hover:text-white shadow-lg m-4 z-50"
       href="/"
       ><svg
         aria-hidden="true"

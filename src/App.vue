@@ -75,8 +75,8 @@
           Interested in hiring me for a project, or just want to talk about the
           internet? You can reach me via email at
           <a
-            href="mailto:alex@alexharris.online"
-            >alex@alexharris.online</a
+            href="mailto:ahyes.web@gmail.com"
+            >ahyes.web@gmail.com</a
           >
           or find me on
           <a

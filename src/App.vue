@@ -53,18 +53,16 @@
       <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2 pl-0 px-4 font-sans">
         <h2 class="text-xl uppercase font-bold ">About</h2>
-          <p>I have been making websites professionally for over 10 years, and have a wide variety of experience. As a developer at <a href="https://castironcoding.com/">Cast Iron Coding</a> in Portland, OR, I spent countless hours building sites for clients, and training and supporting them in their ongoing use.</p>
-          <p>I have also spent time on the other side of the client/developer relationship as the Web Editor and Electronic Communications Manager at the <a href="https://bampfa.org">Berkeley Art Museum and Pacific Film Archive</a> at UC Berkeley, where one of my duties including hiring and working with assorted contractors to build new functionality for their website (as well as developing a wide range of functionality myself).</p>
-          <p> These experiences have given me perspective on what it takes to communicate succesfully on the web.</p>
+<p>I have been making websites professionally for over 10 years, and have a wide variety of experience. As a developer at Cast Iron Coding in Portland, OR, I built sites for clients, and trained and supported them in their ongoing use. As the Web Editor and Electronic Communications Manager at UC Berkeley’s Berkeley Art Museum and Pacific Film Archive I coordinated with contractors, co-workers, and students to achieve complex strategic and technical communications goals.</p>
         </div>
         <div class="w-full md:w-1/2 pl-0 md:pl-4 px-4 font-sans">
         <h2 class="text-xl uppercase font-bold ">Services</h2>
-          <p> I provide a wide range of development, design, consultation and training services.</p>
-          <p>I believe that a successful website is focused first and foremost on accessible, clear, and up to date content.</p>
+          <p> I provide development, design, consultation and training services.</p>
+
           <p>
-            My technical proficiencies include: HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery, whatever),
-            PHP, UI design, and CMS implementation and maintenance including Drupal, Wordpress, Squarespace, Shopify and more.
+            My technical proficiencies include: HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery, whatever), PHP, UI design, and CMS implementation and maintenance including Drupal, Wordpress, Squarespace, Shopify and more.
           </p>
+          <p>Not sure what exactly <em>what</em> you need? I can work with you to determine what approach would be best for you, given your needs and goals.</p>
         </div>
       </div>
       <div class="w-full bg-ah-900 my-8 p-12 sm:p-32">

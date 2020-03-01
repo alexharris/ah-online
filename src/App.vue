@@ -20,7 +20,7 @@
         ></path>
       </svg>
     </a>
-    <div class="bg-white w-full py-8 px-8">
+    <div class="w-full py-8 px-8">
       <h1 class="text-xl uppercase font-bold ">Alex Harris Web Development</h1>
     </div>
     <section
@@ -29,37 +29,35 @@
     >
       <!-- <HeaderAnimation /> -->
       <p class=" w-full md:w-4/5 pb-16 text-4xl pb-48">
-        I am a web developer in Oakland, CA with over 10 years of experience
-        helping arts and education organizations, artists, non-profits and small
-        businesses communicate on the web.
+        I am a web developer in Oakland, CA focused on helping arts and environmental organizations, non-profits and small businesses communicate on the web.
       </p>
       <h2 class="text-xl uppercase font-bold ">Selected Work</h2>
       <div class="flex flex-row flex-wrap pb-8 pb-48" id="work-items">
-        <WorkItem url="/bampfa" title="BAMPFA" subtitle="Drupal 7" slug="bampfa" />
+        <WorkItem url="https://bampfa.org" title="BAMPFA" subtitle="Drupal 7" slug="bampfa" />
         <WorkItem
-          url="/capp"
+          url="https://500cappstreet.org"
           title="500 Capp Street"
           subtitle="Wordpress"
           slug="capp"
           casestudy="true"
           
         />
-        <WorkItem url="/obb" title="Other Brother Beer" subtitle="Wordpress"  slug="obb" />
-        <WorkItem url="/alma" title="Alma and Friends" subtitle="Vue.js" slug="alma" />
-        <WorkItem url="/oe" title="Open Engagement" subtitle="Wordpress" slug="oe" />
-        <WorkItem url="/picoyune" title="Picoyune" subtitle="Static Site" slug="pico" />
-        <WorkItem url="/kgf" title="Kessenick Gamma & Free LLP" subtitle="Squarespace" slug="kgf" />
-        <WorkItem url="/dither" title="Dither it!" subtitle="Vue.js" slug="dither" />
+        <WorkItem url="https://otherbrotherbeer.com" title="Other Brother Beer" subtitle="Wordpress"  slug="obb" />
+        <WorkItem url="https://almaandfriends.org/#/" title="Alma and Friends" subtitle="Vue.js" slug="alma" />
+        <WorkItem url="http://openengagement.info/" title="Open Engagement" subtitle="Wordpress" slug="oe" />
+        <WorkItem url="https://picoyune.com/" title="Picoyune" subtitle="Static Site" slug="pico" />
+        <WorkItem url="https://www.kgf-lawfirm.com/" title="Kessenick Gamma & Free LLP" subtitle="Squarespace" slug="kgf" />
+        <WorkItem url="https://ditherit.com/" title="Dither it!" subtitle="Vue.js" slug="dither" />
       </div>
       
       <div class="flex flex-col md:flex-row">
-        <div class="w-full md:w-1/2 pl-0 px-4">
+        <div class="w-full md:w-1/2 pl-0 px-4 font-sans">
         <h2 class="text-xl uppercase font-bold ">About</h2>
-          <p>
-            I have been making websites professionally for over 10 years, and have a wide variety of experience. As a developer at Cast Iron Coding in Portland, OR, I spent countless hours building sites for clients, and training and supporting them in their ongoing use.</p><p>I have also spent time on the other side of the client/developer relationship as the Web Editor and Electronic Communications Manager at the Berkeley Art Museum and Pacific Film Archive at the UC Berkeley, where one of my duties including hiring and working with assorted contractors to build new functionality for their website (as well as developing a wide range of functionality myself).</p><p> These experiences have given me perspective on what it takes to communicate succesfully on the web (hint: it is as much or more about good communication and planning than the technology involved).
-          </p>
+          <p>I have been making websites professionally for over 10 years, and have a wide variety of experience. As a developer at <a href="https://castironcoding.com/">Cast Iron Coding</a> in Portland, OR, I spent countless hours building sites for clients, and training and supporting them in their ongoing use.</p>
+          <p>I have also spent time on the other side of the client/developer relationship as the Web Editor and Electronic Communications Manager at the <a href="https://bampfa.org">Berkeley Art Museum and Pacific Film Archive</a> at UC Berkeley, where one of my duties including hiring and working with assorted contractors to build new functionality for their website (as well as developing a wide range of functionality myself).</p>
+          <p> These experiences have given me perspective on what it takes to communicate succesfully on the web.</p>
         </div>
-        <div class="w-full md:w-1/2 pl-0 md:pl-4 px-4">
+        <div class="w-full md:w-1/2 pl-0 md:pl-4 px-4 font-sans">
         <h2 class="text-xl uppercase font-bold ">Services</h2>
           <p> I provide a wide range of development, design, consultation and training services.</p>
           <p>I believe that a successful website is focused first and foremost on accessible, clear, and up to date content.</p>
@@ -78,25 +76,13 @@
             Interested in hiring me for a project, or just want to talk about the internet? You can reach me via:
           </p>
           <ul>
-            <li><a class="text-white border-white" href="mailto:ahyes.web@gmail.com">ahyes.web@gmail.com</a></li>
-            <li><a class="text-white border-white" href="https://github.com/alexharris">Github</a></li>
-            <li><a class="text-white border-white" href="https://www.linkedin.com/in/alex-harris-a7425b90/">Linked In</a></li>
+            <li><a class="text-white border-white" href="mailto:hello@alexharris.online">hello@alexharris.online</a></li>
           </ul>
-<form name="contact" method="POST" data-netlify="true" action="/">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
-          
+          <p>Or find me online at:</p>
+          <ul class="flex flex-row">
+            <li class="pr-4"><a class="text-white border-white" href="https://github.com/alexharris">Github</a></li>
+            <li class="pr-4"><a class="text-white border-white" href="https://www.linkedin.com/in/alex-harris-a7425b90/">Linked In</a></li>
+          </ul>
         </div>
       </div>
       <!-- <h2 class="text-xl uppercase font-bold ">Other Stuff</h2>

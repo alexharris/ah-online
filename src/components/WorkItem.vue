@@ -6,7 +6,9 @@
       Case Study
     </div>
     <div class="py-4 work rounded">
-      <a :href="'/?p=' + slug" class="border-0">
+      <!-- <a :href="'/?p=' + slug" class="border-0"> -->
+            <a :href="url" class="border-0">
+
         <img class="thumb shadow-lg" :src="'./' + slug + '-thumb.jpg'" />
         <h4 class="pt-4 uppercase">{{ title }}</h4>
       </a>

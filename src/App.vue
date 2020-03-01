@@ -2,7 +2,7 @@
   <div id="app" class="gradient container mx-auto pt-12">
     <a
       v-if="currentRoute != ''"
-      class="m-2 fixed top-0 bg-white right-0 text-ah-900 cursor-pointer border border-ah-900 rounded-full w-12 h-12 flex justify-center items-center hover:bg-ah-900 hover:text-white shadow-lg m-4 z-50"
+      class="m-2 fixed top-0 bg-white right-0 text-ah-900 cursor-pointer border border-ah-900 rounded-full w-12 h-12 flex justify-center items-center hover:bg-ah-900 hover:text-white shadow-lg m-4 z-50 mt-16 mr-16"
       href="/"
       ><svg
         aria-hidden="true"
@@ -25,16 +25,16 @@
     </div>
     <section
       v-if="currentRoute == ''"
-      class="px-8 w-full px-8"
+      class="px-8 w-full"
     >
       <!-- <HeaderAnimation /> -->
-      <p class=" w-full md:w-4/5 pb-16 text-4xl">
+      <p class=" w-full md:w-4/5 pb-16 text-4xl pb-48">
         I am a web developer in Oakland, CA with over 10 years of experience
         helping arts and education organizations, artists, non-profits and small
         businesses communicate on the web.
       </p>
       <h2 class="text-xl uppercase font-bold ">Selected Work</h2>
-      <div class="flex flex-row flex-wrap pb-8" id="work-items">
+      <div class="flex flex-row flex-wrap pb-8 pb-48" id="work-items">
         <WorkItem url="/bampfa" title="BAMPFA" subtitle="Drupal 7" slug="bampfa" />
         <WorkItem
           url="/capp"
@@ -82,18 +82,36 @@
             <li><a class="text-white border-white" href="https://github.com/alexharris">Github</a></li>
             <li><a class="text-white border-white" href="https://www.linkedin.com/in/alex-harris-a7425b90/">Linked In</a></li>
           </ul>
+<form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
           
         </div>
       </div>
-      <h2 class="text-xl uppercase font-bold ">Other Stuff</h2>
-      <p>Here is some non-client work I have on the web:</p>
-      <div class="flex flex-row flex-wrap">
+      <!-- <h2 class="text-xl uppercase font-bold ">Other Stuff</h2>
+      <p>Here is some non-client work I have on the web:</p> -->
+      <!-- <div class="flex flex-row flex-wrap">
         <div
           class="w-full sm:w-1/2 lg:w-1/3 sm:pr-4 sm:my-8"
         >
-          <!-- <a class="self-center" href="https://smallarchives.com">
-            <img src="smallarchives-thumb.jpg" />
-          </a> -->
+
           <div class="p-4 flex flex-col justify-between">
             <h3 class="font-bold">Small Archives</h3>
             <p>
@@ -108,7 +126,6 @@
         <div
           class="w-full sm:w-1/2 lg:w-1/3 sm:px-2 sm:my-8"
         >
-          <!-- <a href="https://ditherit.com"> <img src="ditherit-thumb.jpg"/></a> -->
           <div class="p-4 flex flex-col justify-between">
             <h3 class="font-bold">Dither it!</h3>
             <p>
@@ -122,9 +139,7 @@
         <div
           class="w-full sm:w-1/2 lg:w-1/3 lg:pl-4 sm:my-8"
         >
-          <!-- <a href="https://alexharris.github.io/vue-palette-builder/">
-            <img src="vue-palette-builder-thumb.jpg"
-          /></a> -->
+
           <div class="p-4 flex flex-col justify-between">
             <h3 class="font-bold">Vue Palette Builder</h3>
             <p>
@@ -139,7 +154,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
     <section v-if="currentRoute == '?p=capp'" class="w-full">
       <Capp />

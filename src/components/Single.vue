@@ -6,15 +6,15 @@
     <div
       class="w-full conatiner mx-auto mt-16 flex flex-col justify-center items-center"
     >
-      <div class="w-full flex flex-col md:flex-row conatiner mx-auto">
+      <div class="w-full flex flex-col conatiner mx-auto">
         <div
-          class="w-full md:w-1/2 flex flex-col md:h-screen  top-0 pt-16 "
-          v-bind:class="{ 'md:sticky': !casestudy }"
+          class="w-full flex flex-col top-0 pt-16 "
+          
         >
           <slot></slot>
        
         </div>
-        <div class="w-full md:w-1/2 py-4 md:pl-8 flex justify-center items-start py-4 md:sticky top-0">
+        <div class="w-full">
           <img class="shadow-xl" :src="id + '/1.jpg'" />
         </div>
       </div>

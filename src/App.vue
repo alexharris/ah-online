@@ -82,7 +82,7 @@
             <li><a class="text-white border-white" href="https://github.com/alexharris">Github</a></li>
             <li><a class="text-white border-white" href="https://www.linkedin.com/in/alex-harris-a7425b90/">Linked In</a></li>
           </ul>
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" data-netlify="true" action="/">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
   </p>

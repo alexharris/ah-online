@@ -6,16 +6,17 @@
     <div
       class="w-full conatiner mx-auto mt-16 flex flex-col justify-center items-center"
     >
-      <div class="w-full flex flex-col conatiner mx-auto">
+      <div class="w-full flex flex-col lg:flex-row conatiner mx-auto">
         <div
-          class="w-full flex flex-col top-0 pt-16 "
+          class="w-full lg:w-1/2 flex flex-col top-0 pr-16 "
           
         >
           <slot></slot>
        
         </div>
-        <div class="w-full">
-          <img class="shadow-xl" :src="id + '/1.jpg'" />
+        <div class="w-full lg:w-1/2">
+          <img class="shadow-xl mb-8" :src="id + '/1.jpg'" />
+          <img class="shadow-xl" :src="id + '/2.jpg'" />
         </div>
       </div>
     </div>

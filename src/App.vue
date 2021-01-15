@@ -33,6 +33,8 @@
       </p>
       <h2 class="text-xl uppercase font-bold ">Selected Work</h2>
       <div class="flex flex-row flex-wrap pb-8 pb-48" id="work-items">
+        <WorkItem url="https://lightsourcesf.com/" title="Lightsource" subtitle="Wordpress" slug="lightsource" casestudy="true" />
+
         <WorkItem url="https://bampfa.org" title="BAMPFA" subtitle="Drupal 7" slug="bampfa" />
         <WorkItem
           url="https://500cappstreet.org"
@@ -43,17 +45,18 @@
           
         />
         <WorkItem url="https://otherbrotherbeer.com" title="Other Brother Beer" subtitle="Wordpress"  slug="obb" />
-        <WorkItem url="https://almaandfriends.org/#/" title="Alma and Friends" subtitle="Vue.js" slug="alma" />
+        <!-- <WorkItem url="https://almaandfriends.org/#/" title="Alma and Friends" subtitle="Vue.js" slug="alma" /> -->
         <WorkItem url="http://openengagement.info/" title="Open Engagement" subtitle="Wordpress" slug="oe" />
         <WorkItem url="https://picoyune.com/" title="Picoyune" subtitle="Static Site" slug="pico" />
         <WorkItem url="https://www.kgf-lawfirm.com/" title="Kessenick Gamma & Free LLP" subtitle="Squarespace" slug="kgf" />
         <WorkItem url="https://ditherit.com/" title="Dither it!" subtitle="Vue.js" slug="dither" />
+
       </div>
       
       <div class="flex flex-col md:flex-row">
         <div class="w-full md:w-1/2 pl-0 px-4 font-sans">
         <h2 class="text-xl uppercase font-bold ">About</h2>
-<p>I have been making websites professionally for over 10 years, and have a wide variety of experience. As a developer at Cast Iron Coding in Portland, OR, I built sites for clients, and trained and supported them in their ongoing use. As the Web Editor and Electronic Communications Manager at UC Berkeley’s Berkeley Art Museum and Pacific Film Archive I coordinated with contractors, co-workers, and students to achieve complex strategic and technical communications goals.</p>
+          <p>I have been making websites professionally for over 10 years, and have a wide variety of experience. As a developer at Cast Iron Coding in Portland, OR, I built sites for clients, and trained and supported them in their ongoing use. As the Web Editor and Electronic Communications Manager at UC Berkeley’s Berkeley Art Museum and Pacific Film Archive I coordinated with contractors, co-workers, and students to achieve complex strategic and technical communications goals.</p>
         </div>
         <div class="w-full md:w-1/2 pl-0 md:pl-4 px-4 font-sans">
         <h2 class="text-xl uppercase font-bold ">Services</h2>
@@ -83,57 +86,10 @@
           </ul>
         </div>
       </div>
-      <!-- <h2 class="text-xl uppercase font-bold ">Other Stuff</h2>
-      <p>Here is some non-client work I have on the web:</p> -->
-      <!-- <div class="flex flex-row flex-wrap">
-        <div
-          class="w-full sm:w-1/2 lg:w-1/3 sm:pr-4 sm:my-8"
-        >
-
-          <div class="p-4 flex flex-col justify-between">
-            <h3 class="font-bold">Small Archives</h3>
-            <p>
-              Small Archives is a simple web platform for publishing collections
-              of things.
-            </p>
-            <p>
-              <a href="https://smallarchives.com">https://smallarchives.com</a>
-            </p>
-          </div>
-        </div>
-        <div
-          class="w-full sm:w-1/2 lg:w-1/3 sm:px-2 sm:my-8"
-        >
-          <div class="p-4 flex flex-col justify-between">
-            <h3 class="font-bold">Dither it!</h3>
-            <p>
-              Dither it! is a web app for dithering images, allowing for
-              reduction in the number of colors used while still maintaining
-              detail and depth.
-            </p>
-            <p><a href="https://ditherit.com">https://ditherit.com</a></p>
-          </div>
-        </div>
-        <div
-          class="w-full sm:w-1/2 lg:w-1/3 lg:pl-4 sm:my-8"
-        >
-
-          <div class="p-4 flex flex-col justify-between">
-            <h3 class="font-bold">Vue Palette Builder</h3>
-            <p>
-              Vue Palette Builder is a generic version of the color palette
-              selection tool that I built for Dither it!, ready for use in any
-              Vue project using NPM.
-            </p>
-            <p>
-              <a href="https://alexharris.github.io/vue-palette-builder/"
-                >https://alexharris.github.io/vue-palette-builder</a
-              >
-            </p>
-          </div>
-        </div>
-      </div> -->
     </section>
+    <section v-if="currentRoute == '?p=lightsource'" class="w-full">
+      <Lightsource />
+    </section>    
     <section v-if="currentRoute == '?p=capp'" class="w-full">
       <Capp />
     </section>
@@ -164,6 +120,7 @@
 <script>
 // import HeaderAnimation from "./components/HeaderAnimation.vue";
 import WorkItem from "./components/WorkItem.vue";
+import Lightsource from "./components/Lightsource.vue";
 import Capp from "./components/Capp.vue";
 import Bampfa from "./components/Bampfa.vue";
 import Obb from "./components/Obb.vue";
@@ -184,6 +141,7 @@ export default {
   components: {
     // HeaderAnimation
     WorkItem,
+    Lightsource,
     Capp,
     Bampfa,
     Obb,

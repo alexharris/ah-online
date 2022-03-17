@@ -45,8 +45,6 @@
           
         />
         <WorkItem url="https://otherbrotherbeer.com" title="Other Brother Beer" subtitle="Wordpress"  slug="obb" />
-        <!-- <WorkItem url="https://almaandfriends.org/#/" title="Alma and Friends" subtitle="Vue.js" slug="alma" /> -->
-        <WorkItem url="http://openengagement.info/" title="Open Engagement" subtitle="Wordpress" slug="oe" />
         <WorkItem url="https://picoyune.com/" title="Picoyune" subtitle="Static Site" slug="pico" />
         <WorkItem url="https://www.kgf-lawfirm.com/" title="Kessenick Gamma & Free LLP" subtitle="Squarespace" slug="kgf" />
         <WorkItem url="https://ditherit.com/" title="Dither it!" subtitle="Vue.js" slug="dither" />
@@ -63,7 +61,7 @@
           <p> I provide development, design, consultation and training services.</p>
 
           <p>
-            My technical proficiencies include: HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery, whatever), PHP, UI design, and CMS implementation and maintenance including Drupal, Wordpress, Squarespace, Shopify and more.
+            My technical proficiencies include: HTML, CSS/SCSS, JS (Vue, Vanilla, jQuery, whatever), PHP, UI design, and CMS implementation and maintenance including Wordpress, Shopify and more.
           </p>
           <p>Not sure what exactly <em>what</em> you need? I can work with you to determine what approach would be best for you, given your needs and goals.</p>
         </div>
@@ -102,9 +100,6 @@
     <section v-if="currentRoute == '?p=alma'" class="w-full">
       <Alma />
     </section>
-    <section v-if="currentRoute == '?p=oe'" class="w-full">
-      <Oe />
-    </section>
     <section v-if="currentRoute == '?p=pico'" class="w-full">
       <Pico />
     </section>
@@ -125,7 +120,6 @@ import Capp from "./components/Capp.vue";
 import Bampfa from "./components/Bampfa.vue";
 import Obb from "./components/Obb.vue";
 import Alma from "./components/Alma.vue";
-import Oe from "./components/Oe.vue";
 import Pico from "./components/Pico.vue";
 import Kgf from "./components/Kgf.vue";
 import Dither from "./components/Dither.vue";
@@ -146,7 +140,6 @@ export default {
     Bampfa,
     Obb,
     Alma,
-    Oe,
     Pico,
     Kgf,
     Dither
